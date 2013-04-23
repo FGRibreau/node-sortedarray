@@ -84,7 +84,7 @@
   sortedArray.SortedArray = SortedArray;
 
 
-  if (typeof module !== "undefined") {
+  if ('undefined' !== typeof module && module.exports) {
     module.exports = sortedArray;
   } else {
     this.sortedArray = sortedArray;
