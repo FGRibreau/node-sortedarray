@@ -4,7 +4,7 @@ SortedArray [![Build Status](https://drone.io/github.com/FGRibreau/node-sortedar
 
 
 ## NPM
-Install the module with: `npm install asynccallguard`
+Install the module with: `npm install sortedarray`
 
 ## Browser usage
 
