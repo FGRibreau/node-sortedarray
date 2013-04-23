@@ -38,7 +38,7 @@
     return this.f(a, b) > 0;
   };
 
-  SortedArray.prototype._isLesserThan = function (a, b) {
+  SortedArray.prototype._isLessThan = function (a, b) {
     return this.f(a, b) < 0;
   };
 
@@ -64,7 +64,7 @@
     // @todo use binary search
     var i = 0;
     while(i < l){
-      if(!this._isLesserThan(this._[i], el)){// _[i] < el
+      if(!this._isLessThan(this._[i], el)){// _[i] < el
         c = this._cursor(this._[i-1], this._[i], i);
         this._.splice(i, 0, el);
         return c;
@@ -82,7 +82,6 @@
     return new SortedArray(values, fComparator);
   }
   sortedArray.SortedArray = SortedArray;
-
 
   if ('undefined' !== typeof module && module.exports) {
     module.exports = sortedArray;
