@@ -1,4 +1,4 @@
-var sortedArray = require('./sortedarray');
+var sortedArray = require('./SortedArray');
 var SortedArray = sortedArray.SortedArray;
 
 var arr         = null;
