@@ -1,0 +1,22 @@
+{
+  "name": "sortedarray",
+  "version": "0.0.1",
+  "description": "Simple SortedArray for JavaScript",
+  "main": "SortedArray.js",
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit ./*test*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/node-sortedarray.git"
+  },
+  "keywords": [
+    "array",
+    "sort"
+  ],
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit": "~0.8.0"
+  }
+}
